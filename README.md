@@ -1,8 +1,11 @@
-# React + Vite
+### Generador de Equipos ⚽
+## ¡Bienvenido al Generador de Equipos! Esta aplicación desarrollada en React.js permite dividir a un grupo de jugadores en dos equipos de manera aleatoria, ideal para actividades deportivas o recreativas.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 🖥️ Características
+- Configuración del número de jugadores (10, 12 o 16).
+- Entrada de nombres de jugadores.
+- Generación de equipos aleatorios.
+- Interfaz simple y fácil de usar.
+# 🚀 Tecnologías utilizadas
+- React.js: Para la interfaz de usuario interactiva.
+- CSS: Estilos personalizados para los formularios y equipos.
