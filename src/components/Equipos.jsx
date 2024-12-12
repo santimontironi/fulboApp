@@ -1,6 +1,6 @@
 import '../assets/css/equipos.css'
 
-export const Equipos = ({ jugadores }) => {
+export const Equipos = ({ jugadores, limpiarEquipos }) => {
 
     const jugadoresAleatorios = [...jugadores].sort(() => Math.random() - 0.5);
     //Este método organiza los elementos del array en función de una función de comparación que tú defines.
@@ -32,6 +32,7 @@ export const Equipos = ({ jugadores }) => {
                     </ul>
                 </div>
             </div>
+            <button onClick={limpiarEquipos}>Limpiar equipos</button>
         </div>
     )
 }

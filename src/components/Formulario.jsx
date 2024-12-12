@@ -25,6 +25,11 @@ export const Formulario = () => {
     setJugadores(Array(nuevaCantidad).fill(''))
   }
 
+  function limpiarEquipos(){
+    setJugadores(Array(cantidad).fill(''))
+    setJugadoresAgregados(false)
+  }
+
   return (
     <form onSubmit={handleForm}>
       <label>
@@ -52,7 +57,7 @@ export const Formulario = () => {
       <input type="submit" value="Agregar jugadores" />
 
       {jugadoresAgregados && (
-        <Equipos jugadores={jugadores} />
+        <Equipos jugadores={jugadores} limpiarEquipos={limpiarEquipos} />
       )}
 
     </form>

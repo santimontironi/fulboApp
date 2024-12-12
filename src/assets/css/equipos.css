@@ -6,8 +6,11 @@
 }
 
 .titulo{
-    font-size: 50px;
-    color: #0fd340;
+    font-size: 40px;
+    color: #fff;
+    background-color: #0c8129;
+    padding: 8px;
+    border-radius: 20px;
     font-weight: bold;
     letter-spacing: 2px;
 }
@@ -17,6 +20,7 @@
     align-items: flex-start;
     justify-content: center;
     margin: auto;
+    margin-top: 16px;
     color: #fff;
     gap: 30px;
 }
@@ -26,6 +30,24 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+
+.equipos ul li{
+    width: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.contenedor-equipos button{
+    border: none;
+    color: #fff;
+    width: 120px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #da2f18;
+    margin: auto;
+    margin-top: 15px;
 }
 
 @media(max-width:800px){
