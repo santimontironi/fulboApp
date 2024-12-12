@@ -1,0 +1,35 @@
+.contenedor-equipos{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.titulo{
+    font-size: 50px;
+    color: #0fd340;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.equipos{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: auto;
+    color: #fff;
+    gap: 30px;
+}
+
+.equipos ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width:800px){
+    .titulo{
+        font-size: 35px;
+    }
+}

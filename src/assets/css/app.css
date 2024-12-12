@@ -1,0 +1,15 @@
+.contenedor{
+    max-width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.40)),url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media(max-width:800px){
+    .contenedor{
+        background: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.40)),url(../img/fondoResponsive.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
