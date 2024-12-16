@@ -48,10 +48,13 @@
     background-color: #da2f18;
     margin: auto;
     margin-top: 15px;
+    cursor: pointer;
 }
 
 @media(max-width:800px){
     .titulo{
-        font-size: 35px;
+        background-color: #fff;
+        color: #0c8129;
+        font-size: 25px;
     }
 }

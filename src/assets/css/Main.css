@@ -51,9 +51,10 @@ main p{
         width: 300px;
     }
     main h1{
-        font-size: 30px;
+        font-size: 25px;
     }
     main p{
-        font-size: 16px;
+        font-size: 14px;
+        max-width: 300px;
     }
 }
