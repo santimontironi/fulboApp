@@ -7,15 +7,15 @@
 - Generación de equipos aleatorios.
 - Interfaz simple y fácil de usar.
   
-## 🚀 Tecnologías utilizadas
-- React.js: Para la interfaz de usuario interactiva.
-- CSS: Estilos personalizados para los formularios y equipos.
-
 ## 🌟 Uso
 - Selecciona el número de jugadores en el menú desplegable.
 - Ingresa los nombres de los jugadores en los campos de texto.
 - Haz clic en "Agregar jugadores".
 - Visualiza los equipos generados aleatoriamente en la sección correspondiente.
+
+## 🚀 Tecnologías utilizadas
+- React.js: Para la interfaz de usuario interactiva.
+- CSS: Estilos personalizados para los formularios y equipos.
 
 # Despliegue:
 https://fulboapp.netlify.app/
