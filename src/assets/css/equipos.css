@@ -13,6 +13,7 @@
     border-radius: 20px;
     font-weight: bold;
     letter-spacing: 2px;
+    text-align: center;
 }
 
 .equipos{
@@ -23,18 +24,22 @@
     margin-top: 16px;
     color: #fff;
     gap: 30px;
+    width: 500px;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.603);
+    gap: 50px;
 }
 
 .equipos ul{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     text-align: center;
 }
 
 .equipos ul li{
-    width: 20px;
+    max-width: auto;
     margin-top: 10px;
     font-size: 18px;
 }
