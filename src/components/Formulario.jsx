@@ -26,7 +26,6 @@ export const Formulario = () => {
   }
 
   function limpiarEquipos(){
-    setJugadores(Array(cantidad).fill(''))
     setJugadoresAgregados(false)
   }
 

@@ -57,9 +57,15 @@
 }
 
 @media(max-width:800px){
+    .contenedor-equipos{
+        justify-content: center;
+        align-items: center;
+    }
     .titulo{
         background-color: #fff;
         color: #0c8129;
-        font-size: 25px;
+        font-size: 22px;
+        width: 300px;
+        text-align: center;
     }
 }
