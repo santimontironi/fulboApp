@@ -23,6 +23,7 @@ export const Formulario = () => {
     const nuevaCantidad = parseInt(event.target.value)
     setCantidad(nuevaCantidad)
     setJugadores(Array(nuevaCantidad).fill(''))
+    setJugadoresAgregados(false)
   }
 
   function limpiarEquipos(){
