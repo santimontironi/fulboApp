@@ -1,13 +1,11 @@
-import { Main } from "./components/Main"
-import { Formulario } from './components/Formulario'
-import './assets/css/app.css'
+import { Home } from './components/Home'
+import { Form } from './components/Form'
 
 const App = () => {
   return (
-    <div className="contenedor">
-      <Main />
-      <Formulario/>
-    </div>
+    <>
+      <Home />
+    </>
   )
 }
 
